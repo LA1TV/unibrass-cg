@@ -1,0 +1,40 @@
+{
+  "name": "unibrass-cg",
+  "authors": [
+    "LA1:TV"
+  ],
+  "description": "The main broadcast assets for Unibrass 2017",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "nodecg": {
+    "compatibleRange": "~0.8.0",
+    "graphics": [
+      {
+        "file": "index.html",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "dashboardPanels": [
+      {
+        "name": "master",
+        "title": "Master Controls",
+        "width": 2,
+        "file": "master.html",
+        "headerColor": "#f47425"
+      },
+      {
+        "name": "lowerthird",
+        "title": "Lowerthird",
+        "width": 2,
+        "file": "lowerthird.html",
+        "headerColor": "#f47425"
+      }
+    ],
+    "soundCues": []
+  }
+}
